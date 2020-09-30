@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+
+    <title></title>
+</head>
+<body>
+
+<style>
+.batinder-box {
+width: 300px;
+}
+#btn_submit_badoo,
+#btn_submit_tinder {
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	width: 100%;
+	transition: all 0.3s;
+}
+#btn_submit_badoo {
+background-color: #6500CC;
+}
+#btn_submit_tinder {
+background-color: #FB6861;
+}
+
+
+#btn_submit_badoo:hover,
+#btn_submit_tinder:hover {
+    background-color: #333333;
+}
+#btn_submit_badoo:active,
+#btn_submit_tinder:active {
+    -ms-transform: scale(0.95, 0.95);
+    -webkit-transform: scale(0.95, 0.95);
+    transform: scale(0.95, 0.95);
+}
+
+#ruler {
+  position: absolute;
+  top: 700px;
+}
+
+</style>
+<div class="batinder-box">
+    <p>Позволяет лайкать на Badoo и Tinder просто держа вкладки открытыми. Задержка между лайками 3 секунды.</p>
+	<p><strong>Важно: </strong>количество нажатий кнопки запускает скрипт в несколько потоков.</p>
+
+    <h2>Badoo</h2>
+    <button id="btn_submit_badoo">Забадушить!</button><br><br>
+
+
+	<h2>Tinder</h2>
+    <button id="btn_submit_tinder">Оттиндерить!</button><br><br>
+
+	<center><a href="http://www.shad0ff.com" style="font-size: 9pt;" target="_blank">shad0ff.com</a> </center>
+</div>
+
+<!-- <div id="ruler">
+  <span>dafk;jsdfk;jds;fksdjf;kdsjfsak;dfjds;kfj</span>
+</div> -->
+	<script src="jquery.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>

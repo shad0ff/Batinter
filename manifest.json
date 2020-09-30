@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Batinder",
+	"description": "Автокликер/автолайкер для Badoo и Tinder. Открываете страницу, нажимаете на соответствующую кнопку, готово.",
+	"version": "1.2",
+	"icons": {
+      "128": "128.png"
+    },
+
+	"permissions": [
+		"https://badoo.com/*",
+		"https://tinder.com/*",
+	    "https://gotinder.com/*"
+	],
+
+    "browser_action": {
+        "default_title": "Налайкать!",
+        "default_icon": "128.png",
+        "default_popup": "popup.html"
+    }
+ }
