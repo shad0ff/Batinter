@@ -9,5 +9,5 @@ function func2() {
 	  var likeArr2 = document.querySelector('[aria-label="Лайк"]').click();
 	  likeArr2.click();
     }
-    setInterval(func2, 3000);
+setInterval(func2, 3000);
 </pre>
